@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.portable.myteam.ThirdActivity">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nouveau Joeur"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            />
+
+
+        <EditText
+          android:id="@+id/id_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prenom et nom"
+            />
+        
+
+
+        <RadioGroup
+            android:id="@+id/id_rgroupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attaquant" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Défenseur" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gardien de But" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milieu de terrain" />
+
+        </RadioGroup>
+
+
+
+
+
+        <EditText
+         android:id="@+id/id_inputAge"
+            android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+            android:hint="Age"/>
+
+          <TextView
+            android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            android:text="Photo"/>
+
+
+       <ImageView
+           android:id="@+id/id_photo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/cristiano_ronaldo"
+
+           />
+
+    <Button
+        android:id="@+id/id_display"
+        android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+        android:text="Afficher"/>
+</LinearLayout>

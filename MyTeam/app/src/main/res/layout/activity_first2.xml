@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.portable.myteam.FirstActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenu au club Real Madrid"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icone_real_madrid"/>
+    <Button
+        android:id="@+id/id_btnListPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste de Joeurs"/>
+    <Button
+        android:id="@+id/id_btnPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nouveau Joeur"/>
+</LinearLayout>
+

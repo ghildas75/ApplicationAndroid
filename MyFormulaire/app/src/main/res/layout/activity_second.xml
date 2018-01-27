@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.example.portable.myformulaire.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_txv"
+        android:text="@string/str_marticule"/>
+    <TextView
+        android:id="@+id/idlbl_matricule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_full_name"
+        style="@style/style_txv"/>
+
+        <TextView
+        android:id="@+id/idlblFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_txv"
+        android:text="@string/str_sexe"/>
+    <TextView
+        android:id="@+id/idlbl_sexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_txv"
+        android:text="@string/str_civil_status"/>
+
+    <TextView
+        android:id="@+id/id_lblstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/style_txv"
+        android:text="spoken languages:"/>
+
+    <TextView
+        android:id="@+id/idlbl_SpokenLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/style_txv"
+        android:text="@string/str_salary"/>
+    <TextView
+        android:id="@+id/idlbl_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style=" @style/style_lblresult"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
