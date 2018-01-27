@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyForm</string>
+    <string name="str_marticule">Register id: </string>
+    <string name="str_lastname">Lastname</string>
+    <string name="str_firstname">Firstname</string>
+    <string name="str_sexe">Gender: </string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_civil_status">Civil Status: </string>
+    <string name="str_married">Married</string>
+    <string name="str_single">Single</string>
+    <string name="str_law_partner">Law_partner</string>
+    <string name="str_spoken_languages">Spoken Languages</string>
+    <string name="str_english">English</string>
+    <string name="str_other">Other</string>
+    <string name="hint_other_language">other language</string>
+    <string name="hint_salary">Salary $</string>
+    <string name="str_display">display</string>
+    <string name="str_full_name">Full name:</string>
+    <string name="str_salary">Salary: </string>
+    <string name="key_matricule">matrice</string>
+    <string name="key_lastname">lastname</string>
+    <string name="key_firstname">firstname</string>
+    <string name="key_spoken">spokenlanguages</string>
+    <string name="key_sexe">keysexe</string>
+    <string name="key_civilStatus">keystatus</string>
+    <string name="key_salary">mysalary</string>
+    <string name="str_currency">$</string>
+</resources>

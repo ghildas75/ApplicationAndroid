@@ -1,0 +1,13 @@
+<resources>
+<style name="AppMaterialTheme" parent="SuperMaterialTHEME">
+
+</style>
+    <!-- Base application theme. -->
+    <style name="SuperMaterialTHEME" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

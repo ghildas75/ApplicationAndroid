@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gestion des employes</string>
+    <string name="titreFNoouvel">Nouvel employés</string>
+    <string name="titreFNouvelListemploye">Liste des employés</string>
+    <string name="btnNewEmploye">Nouvel Employe</string>
+    <string name="btnLtEmp">Liste des employés</string>
+</resources>

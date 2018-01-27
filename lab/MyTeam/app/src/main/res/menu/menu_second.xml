@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/id_menu_next"
+    app:showAsAction="always"
+    android:title="Next"
+    android:icon="@drawable/next"/>
+    <item
+        android:id="@+id/id_menu_prev"
+        app:showAsAction="always"
+        android:title="Previous"
+        android:icon="@drawable/previous"/>
+</menu>
